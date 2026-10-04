@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#171916">
+    <meta name="description" content="Учебная электронная визитка вымышленного барбершопа «Визит».">
+    <title>Визит — барбершоп</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="card">
+      <header class="topline">
+        <a class="brand" href="#home" aria-label="Визит — главная">В<span class="brand-dot">.</span></a>
+        <span class="edition">БАРБЕРШОП / EST. 2026</span>
+      </header>
+
+      <section class="hero" id="home" aria-labelledby="title">
+        <div class="pole" aria-hidden="true"><div></div></div>
+        <p class="eyebrow">ВАШ СТИЛЬ. НАША РАБОТА.</p>
+        <h1 id="title">ВИЗИТ<span class="title-dot">.</span></h1>
+        <p class="intro">Хорошая стрижка —<br>повод зайти ещё раз.</p>
+        <p class="description">Стрижём, оформляем бороду и помогаем<br class="desktop-break"> найти свой стиль. Без лишних слов.</p>
+        <div class="services" aria-label="Наши услуги">
+          <span>Стрижка</span><span>Борода</span><span>Уход</span>
+        </div>
+      </section>
+
+      <section class="contacts" aria-labelledby="contacts-title">
+        <div class="section-heading">
+          <h2 id="contacts-title">Будем на связи</h2>
+          <span>01 — 04</span>
+        </div>
+        <!-- Учебные контакты. Замените href и подписи на реальные перед публикацией. -->
+        <a class="contact phone" href="tel:+79990000000">
+          <span class="contact-icon" aria-hidden="true">↗</span>
+          <span class="contact-label"><strong>Позвонить нам</strong><small>+7 (999) 000-00-00 · пример</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="contact" href="https://vk.com/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon social-icon" aria-hidden="true">vk</span>
+          <span class="contact-label"><strong>ВКонтакте</strong><small>Работы, новости и настроение</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="contact" href="https://t.me/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon" aria-hidden="true">➤</span>
+          <span class="contact-label"><strong>Telegram</strong><small>Всё самое свежее — в канале</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="contact" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon instagram-icon" aria-hidden="true">◎</span>
+          <span class="contact-label"><strong>Instagram</strong><small>Стиль в деталях</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <p class="demo-note">Учебная визитка вымышленного барбершопа.<br>Номер — пример; ссылки ведут на главные страницы соцсетей.</p>
+      </section>
+
+      <footer><span>ВИЗИТ — ВРЕМЯ ДЛЯ СЕБЯ.</span><span class="footer-star" aria-hidden="true">✳</span></footer>
+    </main>
+  </body>
+</html>
